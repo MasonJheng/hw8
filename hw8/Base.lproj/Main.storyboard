@@ -46,7 +46,7 @@
                                     <action selector="changeSegment:" destination="BYZ-38-t0r" eventType="valueChanged" id="R5u-PZ-3Ih"/>
                                 </connections>
                             </segmentedControl>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="sHd-cV-fOj">
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="sHd-cV-fOj">
                                 <rect key="frame" x="125" y="634" width="165" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="pageIndicatorTintColor" systemColor="systemIndigoColor"/>
@@ -101,9 +101,13 @@
                         <action selector="swiptChange:" destination="BYZ-38-t0r" id="ooi-lJ-W8n"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="KfT-sa-oCo"/>
+                <swipeGestureRecognizer direction="right" id="KfT-sa-oCo">
+                    <connections>
+                        <action selector="swiptChange:" destination="BYZ-38-t0r" id="tMf-kp-2OC"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-568.1159420289855" y="-347.54464285714283"/>
+            <point key="canvasLocation" x="-186" y="-316"/>
         </scene>
     </scenes>
     <resources>

@@ -49,7 +49,7 @@ class ViewController: UIViewController {
         movieIndex = sender.currentPage
         movieSelect()
     }
-    // 兩個 swipe 拉到同一個 IBAction
+    // 兩個 swipe 拉到同一個 IBAction，每個手勢拉一次
     @IBAction func swiptChange(_ sender: UISwipeGestureRecognizer) {
         if sender.direction == .left {
             movieIndex = movieIndex + 1
