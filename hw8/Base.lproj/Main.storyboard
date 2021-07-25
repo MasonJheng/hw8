@@ -22,16 +22,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <imageReference key="image" image="電影院背景"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="19n-MN-ZmR">
-                                <rect key="frame" x="20" y="78" width="374" height="545"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <imageReference key="image" image="花束般戀愛"/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="5IB-zF-hVU" appends="YES" id="1aL-of-gbq"/>
-                                    <outletCollection property="gestureRecognizers" destination="KfT-sa-oCo" appends="YES" id="9jF-p5-0xy"/>
-                                </connections>
-                            </imageView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="45E-ym-dJJ">
                                 <rect key="frame" x="68" y="670" width="278" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -84,6 +74,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="19n-MN-ZmR">
+                                <rect key="frame" x="20" y="81" width="374" height="545"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <imageReference key="image" image="花束般戀愛"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="5IB-zF-hVU" appends="YES" id="1aL-of-gbq"/>
+                                    <outletCollection property="gestureRecognizers" destination="KfT-sa-oCo" appends="YES" id="9jF-p5-0xy"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -107,7 +107,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-186" y="-316"/>
+            <point key="canvasLocation" x="-91" y="-650"/>
         </scene>
     </scenes>
     <resources>
