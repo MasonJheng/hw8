@@ -16,6 +16,8 @@ var movieIndex = 0
 
 class ViewController: UIViewController {
     
+    
+    
     @IBOutlet weak var movieImageView: UIImageView!
     @IBOutlet weak var moviePage: UIPageControl!
     @IBOutlet weak var movieSegment: UISegmentedControl!
