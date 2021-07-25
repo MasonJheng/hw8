@@ -12,10 +12,9 @@ import UIKit
 let moviesImages = ["玩命9.jpeg","黑寡婦.jpeg","柯南.jpeg","失控的審判.jpeg","花束般戀愛.jpeg"]
 
 let movieNames = ["玩命關頭9","黑寡婦","名偵探柯南","失控的審判","花束般戀愛"]
-
 var movieIndex = 0
-class ViewController: UIViewController {
 
+class ViewController: UIViewController {
     @IBOutlet weak var movieImageView: UIImageView!
     @IBOutlet weak var moviePage: UIPageControl!
     @IBOutlet weak var movieSegment: UISegmentedControl!
